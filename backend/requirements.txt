@@ -1,4 +1,8 @@
 fastapi
 uvicorn
 google-genai
+google-adk
+google-cloud-logging
 python-multipart
+playwright
+Pillow

@@ -1,0 +1,17 @@
+{
+  "name": "AI Digital Workforce Swarm",
+  "short_name": "AI Swarm",
+  "description": "6-agent AI system powered by Gemini that autonomously navigates the web, analyzes data, and delivers research reports.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#030712",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐝</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
