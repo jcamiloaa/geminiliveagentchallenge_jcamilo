@@ -17,6 +17,16 @@ La aplicación es instalable en escritorio y móvil, funciona offline para la in
 
 ---
 
+## Demo
+
+### Captura de Pantalla — Pipeline de Flujo + Navegación SoM
+
+![Pipeline de flujo y vista del navegador con etiquetas SoM](evidence/Screenshot%202026-03-15%20174933.png)
+
+> Izquierda: el navegador del servidor mostrando círculos rojos numerados SoM sobre elementos interactivos. Derecha: el pipeline hexagonal animado con los 6 agentes y métricas en tiempo real.
+
+---
+
 ## Arquitectura
 
 ```

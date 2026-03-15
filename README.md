@@ -15,6 +15,16 @@ The app is installable on desktop and mobile, works offline for the UI shell, an
 
 ---
 
+## Demo
+
+### Screenshot — Workflow Pipeline + SoM Navigation
+
+![Workflow pipeline and SoM-tagged browser view](evidence/Screenshot%202026-03-15%20174933.png)
+
+> Left: the server-side browser showing red numbered SoM circles on interactive elements. Right: the animated hexagonal workflow pipeline with all 6 agents and real-time metrics.
+
+---
+
 ## Architecture
 
 ```
