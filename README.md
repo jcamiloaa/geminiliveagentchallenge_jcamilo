@@ -19,13 +19,27 @@ The app is installable on desktop and mobile, works offline for the UI shell, an
 
 ### Screenshot — Workflow Pipeline + SoM Navigation
 
-![Workflow pipeline and SoM-tagged browser view](evidence/Screenshot 2026-03-15 182709.png)
+![Workflow pipeline and SoM-tagged browser view](evidence/Screenshot%202026-03-15%20182709.png)
 
 > Left: the server-side browser showing red numbered SoM circles on interactive elements. Right: the animated hexagonal workflow pipeline with all 6 agents and real-time metrics.
+
+### Cloud Run Deployment — Live Service + Build History + Cloud Logging
+
+[![Cloud Run Deployment Proof](https://img.youtube.com/vi/fvQrBcp5cAc/maxresdefault.jpg)](https://youtu.be/fvQrBcp5cAc)
+
+> Screen recording proving that the backend runs on Google Cloud: Cloud Run service details, live Cloud Logging output, and Cloud Build history.
+
+Code references:
+- [`cloudbuild.yaml`](cloudbuild.yaml) — CI/CD pipeline definition
+- [`backend/cloud_logging.py`](backend/cloud_logging.py) — Cloud Logging API integration
+- [`deploy.ps1`](deploy.ps1) / [`deploy.sh`](deploy.sh) — Automated deployment scripts
+- [`backend/Dockerfile`](backend/Dockerfile) — Container image for Cloud Run
 
 ---
 
 ## Architecture
+
+![Container Architecture](evidence/architecture-Container%20Architecture.drawio.png)
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐

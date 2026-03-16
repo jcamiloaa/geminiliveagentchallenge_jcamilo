@@ -1,0 +1,12 @@
+#Service details
+https://console.cloud.google.com/run/detail/us-central1/aerobrowser-backend/observability/metrics?project=geminichallenge
+
+#Build history
+https://console.cloud.google.com/cloud-build/builds?project=geminichallenge
+
+
+# Show the deployed service
+gcloud run services describe aerobrowser-backend --region=us-central1 --format="table(status.url, status.conditions)"
+
+# Read live logs (correct subcommand is "read", not "logs tail")
+gcloud logging read "resource.type=cloud_run_revision AND resource.labels.service_name=aerobrowser-backend" --limit=50 --format="table(timestamp, textPayload)" --project=$env:GCP_PROJECT_ID
